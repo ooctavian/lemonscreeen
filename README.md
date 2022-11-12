@@ -16,7 +16,7 @@ There is no config file. The only way to customize it is by using cli arguments:
 - `f` - Font used
 - `T` - Font clor
 - `s` - button spacing
-- `a` - Add a button. Syntax "<key>|<command>|<normal_background>|<hover_background>|<icon_path>"
+- `a` - Add a button. Syntax `<key>|<command>|<normal_background>|<hover_background>|<icon_path>`
 
 # Example
 For example usage see `./example`
