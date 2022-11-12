@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+imageFolder="$HOME/.config/exitscreen"
+~/exitscreen/main -B "#1d1f21" \
+    -b "#282a2e" \
+    -t "Goodbye, <span foreground=\"#5f819d\"><b>${USER^}</b></span>" \
+    -F "#c5c8c6" \
+    -f "Fira Code 50" \
+    -T "#373b41" \
+    -s 20 \
+    -a "p|systemctl poweroff|transparent|#a54242|$imageFolder/shutdown.png" \
+    -a "r|systemctl reboot|transparent|#f0c674|$imageFolder/restart.png" \
+    -a "l|i3lock|transparent|#b294bb|$imageFolder/lock.png" \
+    -a "s|systemctl suspend|transparent|#b5bd68|$imageFolder/suspend.png" \
+    -a "e|log out|transparent|#81a2be|$imageFolder/logout.png"
